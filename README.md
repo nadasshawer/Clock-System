@@ -12,4 +12,5 @@ How to Run:
 3- Open each clock html file with Live Server or in your browser
 
 Built with HTML5, CSS3, and JavaScript
+
 Author: Nada Shawer, and MIS student passionate about blending business systems with real-world front-end tools.
