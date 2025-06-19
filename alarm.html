@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alarm Clock</title>
+
+    <!-- CSS Stylessheet Reference -->
+    <link rel="stylesheet" href="alarm.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- Header -->
+      <b>
+        <p>Alarm Clock</p>
+      </b>
+      <br />
+
+      <!-- Alarm Clock Image -->
+      <img src="alarm.png" alt="Alarm Clock" />
+      <br />
+      <br />
+
+      <!-- Current Time Header -->
+      <h1>00:00:00 AM</h1>
+      <br />
+      <br />
+
+      <div class="content">
+        <!--Hours Section-->
+        <div class="column">
+          <select>
+            <option value="Hour" selected hidden>Hour</option>
+          </select>
+        </div>
+
+        <!--Minutes Section-->
+        <div class="column">
+          <select>
+            <option value="Minute" selected hidden>Minute</option>
+          </select>
+        </div>
+
+        <!--AM/PM Section-->
+        <div class="column">
+          <select>
+            <option value="AM/PM" selected hidden>AM/PM</option>
+          </select>
+        </div>
+      </div>
+      <button>Set Alarm</button>
+    </div>
+
+    <!--JS File Reference-->
+    <script src="alarm.js"></script>
+  </body>
+</html>
