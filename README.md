@@ -13,4 +13,4 @@ How to Run:
 
 Built with HTML5, CSS3, and JavaScript
 
-Author: Nada Shawer, and MIS student passionate about blending business systems with real-world front-end tools.
+Author: Nada Shawer (MIS student passionate about blending business systems with real-world front-end tools).
