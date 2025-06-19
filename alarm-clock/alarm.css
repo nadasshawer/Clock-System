@@ -1,0 +1,88 @@
+/*ALARM CLOCK STYLES*/
+
+/*ALARM IMAGE SIZE*/
+img {
+  width: 100px;
+  height: 100px;
+}
+
+/*BASCIS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body,
+.wrapper,
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*PAGE BACKGROUND*/
+body {
+  min-height: 100vh;
+  background: lightsalmon;
+}
+
+.wrapper {
+  width: 440px;
+  background: #fff;
+  border-radius: 10px;
+  flex-direction: column;
+  padding: 30px 30px 30px;
+}
+
+/* ALARM HEADER*/
+.wrapper p {
+  font-size: 30px;
+  font-weight: 500px;
+  margin: 20px 0;
+}
+
+/*CONTENT ALIGNMENT*/
+.wrapper .content {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.wrapper .content.disable {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+/*ALARM BOX*/
+.content .column {
+  border-radius: 5px;
+  padding: 0 10px;
+  border: 1px solid #999;
+  width: calc(100% / 3 - 5px);
+}
+
+/*CHOICES BUTTONS*/
+.column select {
+  text-align: center;
+  outline: none;
+  border: none;
+  height: 50px;
+  width: 100%;
+  font-size: 17px;
+}
+
+/*SET ALARM BUTTON*/
+.wrapper button {
+  width: 100%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 17px 0;
+  border-radius: 5px;
+  background:steelblue;
+}
