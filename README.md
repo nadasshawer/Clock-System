@@ -1,10 +1,10 @@
 A responsive and interactive Clock System built with HTML, CSS, and JavaScript, featuring Alarm Clock, Stopwatch, Countdown Timer, and World Clock. All-in-one, browser-based time management toolkit.
 
 Features:
--Alarm Clock: Set alarms with custom time input and audio alerts
--Stopwatch: Start, pause, and reset a stopwatch with millisecond accuracy
--Countdown Timer: Input any duration to start a countdown with visual updates
--World Clock: Display real-time clocks for multiple time zones around the world
+Alarm Clock: Set alarms with custom time input and audio alerts, 
+Stopwatch: Start, pause, and reset a stopwatch with millisecond accuracy, 
+Countdown Timer: Input any duration to start a countdown with visual updates, 
+World Clock: Display real-time clocks for multiple time zones around the world
 
 How to Run:
 1- Download or clone the repository
