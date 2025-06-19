@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World Clock</title>
+
+    <!-- CSS Stylessheet Reference -->
+    <link rel="stylesheet" href="world.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- Header -->
+      <h1 align="CENTER">World Clock</h1>
+      <br />
+      <br />
+
+      <!-- World Clock Image -->
+      <center>
+        <img src="world.png" alt="World Clock" />
+      </center>
+      <br />
+      <br />
+
+      <!-- CITY SELECTOR -->
+      <header>
+        <select id="allzone"></select>
+      </header>
+
+      <br />
+
+      <!-- CURRENT TIME -->
+      <div class="worldclock">
+        <i><b>
+          <h2>Current Time:</h2>
+        </i></b>
+
+        <br />
+
+        <h3 align="CENTER" id="currentTime"></h3>
+      </div>
+    </div>
+
+    <!--JS File Reference-->
+    <script src="world.js" defer></script>
+  </body>
+</html>
